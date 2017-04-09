@@ -1,7 +1,0 @@
----
-- include: example01.yml
-- include: example02.yml
-- include: example03.yml
-- hosts: Testnode
-  tasks: 
-    

@@ -1,6 +1,0 @@
----
-- hosts: Testnode
-  tasks:
-    - name: update
-      shell: apt-get update
-      sudo: yes

@@ -1,7 +1,0 @@
----
-- include: example01.yml
-- hosts: Testnode
-  tasks:
-    - name: install
-      shell: apt-get install -y git
-      sudo: yes

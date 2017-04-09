@@ -1,0 +1,12 @@
+---
+- hosts: Testnode
+  remote_user: root
+  tasks:
+    - name: change
+      args:
+        chdir: /opt/
+
+    - unarchive:
+        src: http://repo2.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.0.6.v20130930/jetty-distribution-9.0.6.v20130930.zip
+        dest: /opt
+        remote_src: yes

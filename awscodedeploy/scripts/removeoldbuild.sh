@@ -1,1 +1,0 @@
-rm -rf /opt/jetty/webapps/hello-world.war

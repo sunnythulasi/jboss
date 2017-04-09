@@ -1,0 +1,10 @@
+---
+- hosts: Testnode
+  tasks:
+    - name: update
+      shell: apt-get update
+      sudo: yes
+
+    - name: install
+      shell: apt-get install apache2 -y
+      sudo: yes

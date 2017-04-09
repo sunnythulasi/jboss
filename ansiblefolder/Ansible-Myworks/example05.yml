@@ -1,0 +1,7 @@
+---
+- include: example01.yml
+- hosts: Testnode
+  tasks:
+    - name: install
+      apt: state=present name=git
+      sudo: yes
